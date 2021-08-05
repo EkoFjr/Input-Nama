@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0055FF"
@@ -21,8 +22,7 @@
         android:text="Masukkan Nama Anda"
         android:textColor="@color/white"
         android:textSize="23dp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/inputnama"
@@ -37,8 +37,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:textColor="@color/white"
-        />
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/button"
@@ -49,7 +48,6 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:text="TAMPILKAN"
-        android:textSize="20dp"
-        />
+        android:textSize="20dp" />
 
 </RelativeLayout>

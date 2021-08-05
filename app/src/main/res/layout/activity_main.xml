@@ -19,9 +19,9 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="20dp"
-        android:text="Masukkan Nama Anda"
+        android:text="@string/masukkan_nama_anda"
         android:textColor="@color/white"
-        android:textSize="23dp"
+        android:textSize="23sp"
         android:textStyle="bold" />
 
     <EditText
@@ -37,7 +37,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        />
 
     <Button
         android:id="@+id/button"
@@ -47,7 +48,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:text="TAMPILKAN"
-        android:textSize="20dp" />
+        android:text="@string/tampilkan"
+        android:textSize="20sp"
+        />
 
 </RelativeLayout>

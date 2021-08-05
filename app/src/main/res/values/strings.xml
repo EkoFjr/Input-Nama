@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Input Nama</string>
+    <string name="tampilkan">TAMPILKAN</string>
+    <string name="masukkan_nama_anda">Masukkan Nama Anda</string>
 </resources>

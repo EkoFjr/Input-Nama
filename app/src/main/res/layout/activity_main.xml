@@ -51,6 +51,19 @@
         android:text="@string/tampilkan"
         android:textSize="20sp"/>
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputnama"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toEndOf="@+id/button"
+        android:text="@string/hapus"
+        android:textSize="20sp" />
+
     <TextView
         android:id="@+id/tampilan"
         android:layout_width="wrap_content"
